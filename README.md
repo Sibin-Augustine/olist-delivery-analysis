@@ -37,7 +37,7 @@ to identify factors affecting delivery performance and provide actionable busine
 1. **Data Cleaning**: Filtered only delivered orders and removed 8 orders with missing delivered date. Changed data type of relevant fields to ensure data integrity. 
 2. **Feature Engineering**: Created delivery_days, estimated_days, delay_days, delivery_status, route columns, price_category columns 
 3. **EDA**: Analyzed total orders based on delivery status, customer and seller geography, price category, freight value and customer ratings.
-5. **Visualization Strategy**: Chose Heatmap for route analysis because it is best for correlation analysis
+4. **Visualization Strategy**: Chose pie chart for visualizing overall delivery performance since percentagewise visualization is best using Pie Chart. Chose Heatmap for route analysis because it is best for correlation analysis. Line plot is used for monthly analysis since it is best to identify hidden trends over a period of time. 
 
 ## 📊 Key Findings
 
