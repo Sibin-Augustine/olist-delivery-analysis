@@ -34,11 +34,10 @@ to identify factors affecting delivery performance and provide actionable busine
 5. How does delivery performance impact customer reviews?
 
 ## 🔬 Methodology
-1. **Data Cleaning**: Handled X missing values, removed Y outliers...
-2. **Feature Engineering**: Created delivery_days, delivery_status, route columns
-3. **EDA**: Univariate → Bivariate → Multivariate analysis
-4. **Statistical Testing**: Chi-square for categorical, correlation for numeric
-5. **Visualization Strategy**: Chose X because Y
+1. **Data Cleaning**: Filtered only delivered orders and removed 8 orders with missing delivered date. Changed data type of relevant fields to ensure data integrity. 
+2. **Feature Engineering**: Created delivery_days, estimated_days, delay_days, delivery_status, route columns, price_category columns 
+3. **EDA**: Analyzed total orders based on delivery status, customer and seller geography, price category, freight value and customer ratings.
+5. **Visualization Strategy**: Chose Heatmap for route analysis because it is best for correlation analysis
 
 ## 📊 Key Findings
 
@@ -52,7 +51,8 @@ to identify factors affecting delivery performance and provide actionable busine
 
 ### Overall Delivery Performance
 
-<img width="328" height="317" alt="image" src="https://github.com/user-attachments/assets/0490c8ef-2331-4351-84ef-da081841da32" />
+<img width="584" height="289" alt="image" src="https://github.com/user-attachments/assets/f3ed0127-a196-45c7-b427-2c246ec94fb0" />
+
 
 > **🗺️ Insight**: 92% early delivery rate looks great — but it's actually a red flag for inflated ETAs. Recalibrating delivery estimates could improve conversion rates without harming actual performance
 
@@ -60,7 +60,8 @@ to identify factors affecting delivery performance and provide actionable busine
 
 ### Route Analysis Heatmap
 
-<img width="661" height="342" alt="image" src="https://github.com/user-attachments/assets/f7e0b9ca-3c8e-4395-b57c-942a3c185137" />
+<img width="580" height="295" alt="image" src="https://github.com/user-attachments/assets/454ea192-11de-4010-917f-c94d8d55d987" />
+
 
 > **🗺️ Insight:** Delivery times vary dramatically by route, ranging from 5 days (GO→GO) to 20+ days for cross-country shipments. Same-state deliveries (diagonal cells) consistently show the fastest times (6–11 days), while shipments to Northern/Northeastern states (AM, PA, CE) take 2–3x longer regardless of origin. This confirms that geographic distance and infrastructure gaps — not seller performance — are the primary bottleneck.
 
@@ -68,7 +69,8 @@ to identify factors affecting delivery performance and provide actionable busine
 
 ### Freight value vs Delivery time 
 
-<img width="491" height="290" alt="image" src="https://github.com/user-attachments/assets/1e31bd15-1585-44c3-870e-36fc585ab5db" />
+<img width="590" height="291" alt="image" src="https://github.com/user-attachments/assets/7a507bfd-ee9a-4bfb-a981-c4b1e5d98425" />
+
 
 > **💰 Insight:** The distribution forms a triangular pattern — within 20 days, freight values span the entire range (0–60 BRL), but beyond 40 days, low-cost freight (<15 BRL) virtually disappears.
 
@@ -76,7 +78,8 @@ to identify factors affecting delivery performance and provide actionable busine
 
 ### Review Score vs Delivery Performance
 
-<img width="491" height="291" alt="image" src="https://github.com/user-attachments/assets/5ce023fd-fbda-4a84-916a-c47a31ef98c8" />
+<img width="592" height="290" alt="image" src="https://github.com/user-attachments/assets/b02e5cf8-a0ed-4930-9bc9-a0397615ec4d" />
+
 
 > **⭐ Insight:** There's a clear inverse relationship between delivery time and customer satisfaction. Median delivery time drops from ~14 days for 1-star reviews to ~10 days for 5-star reviews, and the spread of outliers shrinks dramatically as scores improve. Notably, 1-star reviews show extreme variance (some deliveries taking 55+ days), while 5-star reviews are tightly clustered under 25 days.
 
@@ -93,11 +96,11 @@ to identify factors affecting delivery performance and provide actionable busine
 ## 💰 Estimated Business Impact
 - Implementing Northern warehouse → **~40% delivery time reduction**
 - Better SLA estimates → potential **15% increase in 5-star reviews**
-- Freight optimization → **R$ X savings per order** on remote routes
+- Freight optimization → **BRL 10-15 savings per order** on remote routes
 
 
 ## 🎯 Skills Demonstrated
-- **Data Wrangling**: Merged 9 relational tables (orders, customers, reviews...)
+- **Data Wrangling**: Merged 7 relational tables (orders, customers, reviews...)
 - **EDA**: Univariate, bivariate, geospatial analysis
 - **Statistical Analysis**: Correlation, hypothesis testing
 - **Data Visualization**: Matplotlib, Seaborn, heatmaps, scatter plots
@@ -110,3 +113,10 @@ to identify factors affecting delivery performance and provide actionable busine
 - **Pandas** - Data manipulation
 - **Matplotlib & Seaborn** - Visualization
 - **Jupyter Notebook** - Analysis environment
+
+## 👤 Author
+**Sibin Augustine**
+- LinkedIn: www.linkedin.com/in/sibin-augustine-53222516a
+- Email: sibinaugustine12830@email.com
+
+⭐ If you found this project useful, please give it a star!
