@@ -54,23 +54,33 @@ to identify factors affecting delivery performance and provide actionable busine
 
 <img width="328" height="317" alt="image" src="https://github.com/user-attachments/assets/0490c8ef-2331-4351-84ef-da081841da32" />
 
+> **🗺️ Insight**: 92% early delivery rate looks great — but it's actually a red flag for inflated ETAs. Recalibrating delivery estimates could improve conversion rates without harming actual performance
 
+---
 
 ### Route Analysis Heatmap
 
 <img width="661" height="342" alt="image" src="https://github.com/user-attachments/assets/f7e0b9ca-3c8e-4395-b57c-942a3c185137" />
 
+> **🗺️ Insight:** Delivery times vary dramatically by route, ranging from 5 days (GO→GO) to 20+ days for cross-country shipments. Same-state deliveries (diagonal cells) consistently show the fastest times (6–11 days), while shipments to Northern/Northeastern states (AM, PA, CE) take 2–3x longer regardless of origin. This confirms that geographic distance and infrastructure gaps — not seller performance — are the primary bottleneck.
+
+---
 
 ### Freight value vs Delivery time 
 
 <img width="491" height="290" alt="image" src="https://github.com/user-attachments/assets/1e31bd15-1585-44c3-870e-36fc585ab5db" />
 
-**Insight**: Low-cost freight (<15 BRL) disappears beyond 40-day deliveries,  suggesting cheap shipping is exclusively used for short-distance routes.
+> **💰 Insight:** The distribution forms a triangular pattern — within 20 days, freight values span the entire range (0–60 BRL), but beyond 40 days, low-cost freight (<15 BRL) virtually disappears.
+
+---
 
 ### Review Score vs Delivery Performance
 
 <img width="491" height="291" alt="image" src="https://github.com/user-attachments/assets/5ce023fd-fbda-4a84-916a-c47a31ef98c8" />
 
+> **⭐ Insight:** There's a clear inverse relationship between delivery time and customer satisfaction. Median delivery time drops from ~14 days for 1-star reviews to ~10 days for 5-star reviews, and the spread of outliers shrinks dramatically as scores improve. Notably, 1-star reviews show extreme variance (some deliveries taking 55+ days), while 5-star reviews are tightly clustered under 25 days.
+
+---
 
 ## 💡 Recommendations
 
