@@ -53,3 +53,11 @@ to identify factors affecting delivery performance and provide actionable busine
 - **Pandas** - Data manipulation
 - **Matplotlib & Seaborn** - Visualization
 - **Jupyter Notebook** - Analysis environment
+
+## 💡 Recommendations
+
+1. **Regional Warehouses**: Establish fulfillment centers in Northern regions.
+2. **Better Delivery Estimates**: Adjust estimated dates for remote destinations.
+3. **Category-specific SLAs**: Set realistic delivery times for bulky items.
+4. **Freight Subsidy**: Consider partial subsidies for high-cost regions.
+5. **Priority Handling**: Flag orders to remote regions for expedited processing.
