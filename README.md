@@ -67,6 +67,16 @@ to identify factors affecting delivery performance and provide actionable busine
 
 ---
 
+### Categorywise Delivery Time
+
+<img width="590" height="293" alt="image" src="https://github.com/user-attachments/assets/e6619de5-5770-446c-9832-decdc3687e3b" />
+
+
+
+> **🗺️ Insight:** Office furniture and Home decor products experience average delivery time of 15-20 days mainly due to the requirement of larger shipment and manpower. The average delivery time for personal health care and fashion products are 30-40% less than the bulkier products. 
+
+---
+
 ### Freight value vs Delivery time 
 
 <img width="590" height="291" alt="image" src="https://github.com/user-attachments/assets/7a507bfd-ee9a-4bfb-a981-c4b1e5d98425" />
