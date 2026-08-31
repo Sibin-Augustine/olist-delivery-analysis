@@ -44,7 +44,7 @@ to identify factors affecting delivery performance and provide actionable busine
 - **92%** of orders delivered early or on-time
 - **Northern states** average **21 days** delivery vs. **7 days in Southeas**t (3x slower), affecting ~8% of orders but generating 35% of complaints
 - **1-star reviews** have a **35% late delivery rate** vs only **3%** for 5-star
-- Freight value and delivery time are not linearly dependent, however for longer delivery time (>60 days) average freight values is approximately 20-40 BRL
+- Higher Frieght value does not guarantee faster delivery, however for longer delivery time (>60 days) average freight values is approximately 20-40 BRL
 - **GO → GO** is the fastest route (5 days); **CE → AM** is the slowest (100+ days)
 
 ## 🖼️ Visualizations
