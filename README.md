@@ -69,7 +69,8 @@ to identify factors affecting delivery performance and provide actionable busine
 
 ### Categorywise Delivery Time
 
-<img width="590" height="293" alt="image" src="https://github.com/user-attachments/assets/e6619de5-5770-446c-9832-decdc3687e3b" />
+<img width="591" height="291" alt="image" src="https://github.com/user-attachments/assets/daee488a-32a0-4b8c-ab59-d20668002660" />
+
 
 
 
